@@ -1,0 +1,66 @@
+body{
+    font-family: Roboto;
+    font-size: 16px;
+    background-color:  hsl(234, 29%, 20%);
+}
+.heading{
+font-size: 60px;
+font-weight: 600;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 9% auto;
+    width: 800px;
+    height: 600px;
+    border-radius: 18px;
+    background-color: aliceblue;
+}
+.line{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.icon{
+    padding-right: 20px;
+    width: 18px;
+    height: 18px;
+}
+form p{
+    font-weight: 600;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+form input{
+    height: 39px;
+    width: 350px;
+    border: rgb(201, 201, 201) solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button{
+    background-color: hsl(234, 29%, 20%) ;
+    color: white;
+    font-weight: 550;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 357px;
+    height: 45px;
+    cursor: pointer;
+}
+form button:hover{
+        background: linear-gradient(45deg,hsl(4, 100%, 63%),hsl(4, 100%, 70%));
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
